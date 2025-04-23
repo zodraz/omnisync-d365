@@ -1,0 +1,1917 @@
+<ImportExportXml version="9.2.25034.218" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25034.218" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.25034.00218">
+  <SolutionManifest>
+    <UniqueName>Crd17c3</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Common Data Services Default Solution" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>Cred3dc</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="CDS Default Publisher" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>omnisync</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>76124</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="2" />
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="cr989_retailstore" behavior="0" />
+      <RootComponent type="1" schemaName="product" behavior="2" />
+      <RootComponent type="1" schemaName="salesorder" behavior="1" />
+      <RootComponent type="61" schemaName="cr989_retailstore" behavior="0" />
+      <RootComponent type="61" schemaName="omnisync_SyncStatus" behavior="0" />
+      <RootComponent type="61" schemaName="omnisync_SyncStatusv2" behavior="0" />
+      <RootComponent type="62" schemaName="SalesHubSitemap" behavior="0" />
+      <RootComponent type="80" schemaName="msdynce_saleshub" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="adminsettingsentity" displayName="admin_settings_entity" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bulkoperation" displayName="Quick Campaign" solution="msdynce_Marketing (9.0.4.37)">
+          <package appName="msdynce_Marketing" version="9.0.25034.10001">msdynce_MarketingAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bulkoperation" displayName="Quick Campaign" solution="msdynce_Marketing (9.0.4.37)">
+          <package appName="msdynce_Marketing" version="9.0.25034.10001">msdynce_MarketingAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.4.37)">
+          <package appName="msdynce_Marketing" version="9.0.25034.10001">msdynce_MarketingAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.4.37)">
+          <package appName="msdynce_Marketing" version="9.0.25034.10001">msdynce_MarketingAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="competitor" displayName="Competitor" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="competitor" displayName="Competitor" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="discounttype" displayName="Discount List" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="dynamicproperty" displayName="Property" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="dynamicproperty" displayName="Property" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="dynamicpropertyoptionsetitem" displayName="Property Option Set Item" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="entitlement" displayName="Entitlement" solution="msdynce_Service (9.0.5.56)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="entitlement" displayName="Entitlement" solution="msdynce_Service (9.0.5.56)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account form for Customer Card" parentDisplayName="Account" id="{f5f9a07e-0f28-ed11-9db1-000d3a8d107a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incidentresolution" displayName="Case Resolution" solution="msdynce_Service (9.0.5.56)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="invoice" displayName="Invoice" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="invoice" displayName="Invoice" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="invoicedetail" displayName="Invoice Product" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package appName="msdynce_LeadManagement" version="9.0.25034.10001">msdynce_LeadManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="lead" displayName="Lead" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package appName="msdynce_LeadManagement" version="9.0.25034.10001">msdynce_LeadManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="leadtoopportunitysalesprocess" displayName="Lead To Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="list" displayName="Marketing List" solution="msdynce_Marketing (9.0.4.37)">
+          <package appName="msdynce_Marketing" version="9.0.25034.10001">msdynce_MarketingAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_callablecontext" displayName="Playbook Callable Context" solution="msdyn_Playbook (9.0.2404.3002 )">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_channelinstance" displayName="Channel Instance" solution="msdyn_D365ChannelDefinitions (1.1.51539.138)">
+          <package appName="App profile manager" version="10.1.25033.1008">msdyn_AppProfileManagerAnchor (10.1.25033.1008)</package>
+          <package appName="D365ChannelDefinitionsPackage" version="1.0.1.4">msdyn_D365ChannelDefinitionsAnchor (1.0.1.4)</package>
+          <package appName="CxpSales" version="1.1.51539.138">DynamicsMKT_CxpSalesAnchorSolution (1.1.51539.138)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_customerasset" displayName="Customer Asset" solution="msdyn_AssetCommon (1.0.50.1)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_datahygienesettinginfo" displayName="Data Hygiene Setting Info" solution="msdyn_leadhygiene (9.1.2503.3001)">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_extendedusersetting" displayName="Extended User Setting" solution="msdyn_acceleratedsales (9.1.25034.10001)">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_forecastconfiguration" displayName="Forecast Configuration" solution="msdyn_Forecasting (9.0.24124.10002)">
+          <package appName="msdyn_SalesIntegrationsAndAddOns" version="9.0.25034.10001">msdyn_SalesIntegrationsAddOns (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_leadhygienesetting" displayName="Lead Hygiene Setting" solution="msdyn_leadhygiene (9.1.2503.3001)">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_ocliveworkitem" displayName="Conversation" solution="OmnichannelBase (1.10.0.84)">
+          <package appName="UnifiedRoutingPrime" version="1.5.26.185">UnifiedRoutingPrimeAnchor (1.5.26.185)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_playbookactivity" displayName="Playbook activity" solution="msdyn_Playbook (9.0.2404.3002 )">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_playbookactivityattribute" displayName="Playbook activity attribute" solution="msdyn_Playbook (9.0.2404.3002 )">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_playbookcategory" displayName="[DEPRECATED] Playbook category" solution="msdyn_Playbook (9.0.2404.3002 )">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_playbookinstance" displayName="Playbook" solution="msdyn_Playbook (9.0.2404.3002 )">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_playbooktemplate" displayName="[DEPRECATED] Playbook template" solution="msdyn_Playbook (9.0.2404.3002 )">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salesaccelerationsettings" displayName="Sales Acceleration settings" solution="msdyn_acceleratedsales (9.1.25034.10001)">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salescopilotorgsettings" displayName="Org level settings for Sales Copilot apps" solution="msdyn_SalesCopilot (9.1.25033.10002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salesocsmstemplate" displayName="Text message template" solution="msdyn_SalesOmniChannel (9.1.25034.10001)">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_workqueuerecord" displayName="Work Queue Record" solution="msdyn_acceleratedsales (9.1.25034.10001)">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunity" displayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunityclose" displayName="Opportunity Close" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunityproduct" displayName="Opportunity Product" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="opportunitysalesprocess" displayName="Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="pricelevel" displayName="Price List" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="1" schemaName="product" displayName="Product" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="productassociation" displayName="Product Association" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="productassociation" displayName="Product Association" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="productpricelevel" displayName="Price List Item" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="productpricelevel" displayName="Price List Item" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="productpricelevel" displayName="Price List Item" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="productsubstitute" displayName="Product Relationship" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="productsubstitute" displayName="Product Relationship" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="productsubstitute" displayName="Product Relationship" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="quote" displayName="Quote" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="quotedetail" displayName="Quote Product" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="salesliterature" displayName="Sales Literature" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="1" schemaName="salesorder" displayName="Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="salesorderdetail" displayName="Order Product" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="salesorderdetail" displayName="Order Product" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="territory" displayName="Territory" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="territory" displayName="Territory" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="uom" displayName="Unit" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="uomschedule" displayName="Unit Group" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="uomschedule" displayName="Unit Group" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_account_msdyn_customerasset_Account" displayName="msdyn_account_msdyn_customerasset_Account" parentSchemaName="account" parentDisplayName="Account" solution="msdyn_AssetCommon (1.0.50.1)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package appName="msdynce_LeadManagement" version="9.0.25034.10001">msdynce_LeadManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package appName="msdynce_LeadManagement" version="9.0.25034.10001">msdynce_LeadManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package appName="msdynce_LeadManagement" version="9.0.25034.10001">msdynce_LeadManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="currentcost" displayName="Current Cost" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="currentcost" displayName="Current Cost" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="defaultuomid" displayName="Default Unit" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="defaultuomid" displayName="Default Unit" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="defaultuomscheduleid" displayName="Unit Group" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="defaultuomscheduleid" displayName="Unit Group" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="description" displayName="Description" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="description" displayName="Description" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_alsoknownas" displayName="Also Known As" parentSchemaName="product" parentDisplayName="Product" solution="msdyn_CSAdminCenterApp (1.133.250407.4)">
+          <package appName="ServiceExtended" version="9.0.25033.2020">msdyn_ServiceExtendedAnchor (9.0.25033.2020)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Name" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Name" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="parentproductid" displayName="Parent" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="parentproductid" displayName="Parent" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="price" displayName="List Price" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="price" displayName="List Price" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="pricelevelid" displayName="Default Price List" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="pricelevelid" displayName="Default Price List" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="productnumber" displayName="Product ID" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="productnumber" displayName="Product ID" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="quantitydecimal" displayName="Decimals Supported" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="quantitydecimal" displayName="Decimals Supported" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="size" displayName="Size" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="size" displayName="Size" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="standardcost" displayName="Standard Cost" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="standardcost" displayName="Standard Cost" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="subjectid" displayName="Subject" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="validfromdate" displayName="Valid From" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="validtodate" displayName="Valid To" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_city" displayName="Bill To City" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_composite" displayName="Bill To Address" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_contactname" displayName="Bill To Contact Name" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_country" displayName="Bill To Country/Region" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_fax" displayName="Bill To Fax" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_line1" displayName="Bill To Street 1" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_line2" displayName="Bill To Street 2" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_line3" displayName="Bill To Street 3" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_name" displayName="Bill To Name" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_postalcode" displayName="Bill To ZIP/Postal Code" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_stateorprovince" displayName="Bill To State/Province" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="billto_telephone" displayName="Bill To Phone" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="campaignid" displayName="Source Campaign" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_MarketingSales (9.0.4.29)">
+          <package appName="msdynce_MarketingSales" version="9.0.25034.10001">msdynce_MarketingSalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="customerid" displayName="Customer" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="customerid" displayName="Customer" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="customerid" displayName="Customer" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="datefulfilled" displayName="Date Fulfilled" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="datefulfilled" displayName="Date Fulfilled" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="description" displayName="Description" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="description" displayName="Description" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="description" displayName="Description" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="discountamount" displayName="Order Discount Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="discountamount" displayName="Order Discount Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="discountpercentage" displayName="Order Discount (%)" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="discountpercentage" displayName="Order Discount (%)" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="freightamount" displayName="Freight Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="freightamount" displayName="Freight Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="freighttermscode" displayName="Freight Terms" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="freighttermscode" displayName="Freight Terms" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ispricelocked" displayName="Prices Locked" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ispricelocked" displayName="Prices Locked" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Name" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Name" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="name" displayName="Name" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ordernumber" displayName="Order ID" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ordernumber" displayName="Order ID" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="paymenttermscode" displayName="Payment Terms" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="paymenttermscode" displayName="Payment Terms" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="pricelevelid" displayName="Price List" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="pricelevelid" displayName="Price List" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="pricelevelid" displayName="Price List" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="quoteid" displayName="Quote" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="quoteid" displayName="Quote" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="quoteid" displayName="Quote" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="requestdeliveryby" displayName="Requested Delivery Date" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="2" schemaName="requestdeliveryby" displayName="Requested Delivery Date" parentSchemaName="salesorder" parentDisplayName="Order" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shippingmethodcode" displayName="Shipping Method" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shippingmethodcode" displayName="Shipping Method" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_city" displayName="Ship To City" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_composite" displayName="Ship To Address" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_contactname" displayName="Ship To Contact Name" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_country" displayName="Ship To Country/Region" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_fax" displayName="Ship to Fax" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_line1" displayName="Ship To Street 1" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_line2" displayName="Ship To Street 2" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_line3" displayName="Ship To Street 3" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_name" displayName="Ship To Name" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_postalcode" displayName="Ship To ZIP/Postal Code" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_stateorprovince" displayName="Ship To State/Province" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="shipto_telephone" displayName="Ship To Phone" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="totalamount" displayName="Total Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="totalamount" displayName="Total Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="totalamountlessfreight" displayName="Total Pre-Freight Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="totalamountlessfreight" displayName="Total Pre-Freight Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="totallineitemamount" displayName="Total Detail Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="totallineitemamount" displayName="Total Detail Amount" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="totaltax" displayName="Total Tax" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="totaltax" displayName="Total Tax" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="transactioncurrencyid" displayName="Currency" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="transactioncurrencyid" displayName="Currency" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="transactioncurrencyid" displayName="Currency" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="willcall" displayName="Ship To" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="willcall" displayName="Ship To" parentSchemaName="salesorder" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="parentbundleidref" displayName="Parent bundle product" parentSchemaName="salesorderdetail" parentDisplayName="Order Product" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="CSR Manager" solution="msdynce_Service (9.0.5.56)" id="{253465ca-053f-4725-aec7-8d0f1dd8b7b4}" parentId="{1808b939-dd07-4ca7-aa99-ddd2734378f1}">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account form for Customer Card" parentDisplayName="Account" id="{f5f9a07e-0f28-ed11-9db1-000d3a8d107a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Customer service app access" solution="msdynce_Customerservicehub (9.0.5.0056)" id="{3dac4d9e-568c-e611-80d4-00155d42a122}">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account form for Customer Card" parentDisplayName="Account" id="{f5f9a07e-0f28-ed11-9db1-000d3a8d107a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Customer Service Representative" solution="msdynce_Service (9.0.5.56)" id="{68b66af0-e7f4-4095-a6bb-a8d3ed74c7e5}" parentId="{ecfd0b44-5720-45e3-ae68-417ddb0fb654}">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account form for Customer Card" parentDisplayName="Account" id="{f5f9a07e-0f28-ed11-9db1-000d3a8d107a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Cases for Customer" displayName="All Cases for Customer" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{00000000-0000-0000-00aa-000010001039}">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{00000000-0000-0000-00aa-000010003000}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{00000000-0000-0000-00aa-000010003000}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Extended Product Price List - Products" displayName="Extended Product Price List - Products" parentSchemaName="productpricelevel" parentDisplayName="Price List Item" solution="msdynce_ProductManagement (9.0.4.0066)" id="{19103072-cd05-42c7-b174-f981d33b8beb}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Extended Product Price List - Products" displayName="Extended Product Price List - Products" parentSchemaName="productpricelevel" parentDisplayName="Price List Item" solution="msdynce_ProductManagement (9.0.4.0066)" id="{19103072-cd05-42c7-b174-f981d33b8beb}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Product Family Lookup View" displayName="Product Family Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{19d7f2e0-e427-40fb-85e8-53e7cef2b166}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Product Family Lookup View" displayName="Product Family Lookup View" parentSchemaName="product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{19d7f2e0-e427-40fb-85e8-53e7cef2b166}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Price Lists" displayName="Active Price Lists" parentSchemaName="pricelevel" parentDisplayName="Price List" solution="msdynce_ProductManagement (9.0.4.0066)" id="{2261e01b-b7e6-433a-8d6d-f1fd6ac9f70f}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Price Lists" displayName="Active Price Lists" parentSchemaName="pricelevel" parentDisplayName="Price List" solution="msdynce_ProductManagement (9.0.4.0066)" id="{2261e01b-b7e6-433a-8d6d-f1fd6ac9f70f}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Unit Groups Lookup View" displayName="Unit Groups Lookup View" parentSchemaName="uomschedule" parentDisplayName="Unit Group" solution="msdynce_ProductManagement (9.0.4.0066)" id="{2d013a3a-07cd-4163-8208-8e8e605492f4}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Unit Groups Lookup View" displayName="Unit Groups Lookup View" parentSchemaName="uomschedule" parentDisplayName="Unit Group" solution="msdynce_ProductManagement (9.0.4.0066)" id="{2d013a3a-07cd-4163-8208-8e8e605492f4}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Customer Asset associated view with alerts" displayName="Customer Asset associated view with alerts" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="msdyn_ConnectedCustomerService (9.0.23122.1017)" id="{38cc036f-fbfe-e911-a81c-000d3ac2c6cb}">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Product Relationships" displayName="All Product Relationships" parentSchemaName="productsubstitute" parentDisplayName="Product Relationship" solution="msdynce_ProductManagement (9.0.4.0066)" id="{400c861d-f355-42b2-9899-2b3196cbd71f}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Product Relationships" displayName="All Product Relationships" parentSchemaName="productsubstitute" parentDisplayName="Product Relationship" solution="msdynce_ProductManagement (9.0.4.0066)" id="{400c861d-f355-42b2-9899-2b3196cbd71f}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Unit Group Units Lookup View" displayName="Unit Group Units Lookup View" parentSchemaName="uom" parentDisplayName="Unit" solution="msdynce_ProductManagement (9.0.4.0066)" id="{4da6f46b-3649-4d0e-b5d2-ccb590f4227d}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Unit Group Units Lookup View" displayName="Unit Group Units Lookup View" parentSchemaName="uom" parentDisplayName="Unit" solution="msdynce_ProductManagement (9.0.4.0066)" id="{4da6f46b-3649-4d0e-b5d2-ccb590f4227d}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Cases for Recent Records" displayName="Cases for Recent Records" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_ServicePatch201911 (9.0.25033.4002)" id="{6390e7f6-4528-ed11-9db1-000d3a8d107a}">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account form for Customer Card" parentDisplayName="Account" id="{f5f9a07e-0f28-ed11-9db1-000d3a8d107a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Properties - Product Families" displayName="Properties - Product Families" parentSchemaName="dynamicproperty" parentDisplayName="Property" solution="msdynce_ProductManagement (9.0.4.0066)" id="{63abc191-f333-47e1-9f3f-ef1cbf8df1c0}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Properties - Product Families" displayName="Properties - Product Families" parentSchemaName="dynamicproperty" parentDisplayName="Property" solution="msdynce_ProductManagement (9.0.4.0066)" id="{63abc191-f333-47e1-9f3f-ef1cbf8df1c0}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Customer Assets" displayName="Active Customer Assets" parentSchemaName="msdyn_customerasset" parentDisplayName="Customer Asset" solution="msdyn_AssetCommon (1.0.50.1)" id="{6ecb03a4-acda-44ae-83e3-c60ba8338dbb}">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Product Association Associated View" displayName="Product Association Associated View" parentSchemaName="productassociation" parentDisplayName="Product Association" solution="msdynce_ProductManagement (9.0.4.0066)" id="{8f4f0419-a73a-4ac5-b59b-38fe04f21336}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Product Association Associated View" displayName="Product Association Associated View" parentSchemaName="productassociation" parentDisplayName="Product Association" solution="msdynce_ProductManagement (9.0.4.0066)" id="{8f4f0419-a73a-4ac5-b59b-38fe04f21336}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Account Entitlements" displayName="Account Entitlements" parentSchemaName="entitlement" parentDisplayName="Entitlement" solution="msdynce_Service (9.0.5.56)" id="{961bf8aa-042f-4f4d-bcca-935bfc9a6994}">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Order Product Inline Edit View: Bundle Products" displayName="Order Product Inline Edit View: Bundle Products" parentSchemaName="salesorderdetail" parentDisplayName="Order Product" solution="msdynce_SalesPatch (9.0.1904.3002)" id="{96a1c3d3-24a3-4541-a2b1-6bc37fe6631e}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Order Product Inline Edit View" displayName="Order Product Inline Edit View" parentSchemaName="salesorderdetail" parentDisplayName="Order Product" solution="msdynce_Sales (9.0.4.0076)" id="{9ac6a187-5fb8-445c-914a-3b4a33c0017e}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Recent Opportunities" displayName="Recent Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{9c3f7ee8-eca7-e211-9fb6-00155dd0ea05}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Recent Opportunities" displayName="Recent Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{9c3f7ee8-eca7-e211-9fb6-00155dd0ea05}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All text messages" displayName="All text messages" parentSchemaName="msdyn_ocliveworkitem" parentDisplayName="Conversation" solution="msdyn_SalesOmniChannel (9.1.25034.10001)" id="{a6960a25-1a4a-ed11-bba2-000d3a98dd1f}">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My text messages" displayName="My text messages" parentSchemaName="msdyn_ocliveworkitem" parentDisplayName="Conversation" solution="msdyn_SalesOmniChannel (9.1.25034.10001)" id="{b7a71b36-1a4a-fe22-bba2-111d3a98dd1f}">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My unread text messages" displayName="My unread text messages" parentSchemaName="msdyn_ocliveworkitem" parentDisplayName="Conversation" solution="msdyn_SalesOmniChannel (9.1.25034.10001)" id="{c8b82c47-9a9a-22fe-2abb-d1114b09aa2c}">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="29" displayName="Phone to Case Process" solution="msdynce_Service (9.0.5.56)" id="{0ffbcde4-61c1-4355-aa89-aa1d7b2b8792}">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="29" displayName="Sales Process" solution="msdynce_Sales (9.0.4.0076)" id="{3e8ebee6-a2bc-4451-9c5f-b146b085413a}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="29" displayName="Lead to Opportunity Sales Process" solution="msdynce_Sales (9.0.4.0076)" id="{919e14d1-6489-4852-abd0-a63a6ecaac5d}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{8bc5fb18-48f2-4782-9e16-3d452fa4ddce}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account Reference Panel" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{098ae145-1567-41ec-8398-86dbaac70c9b}">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account Reference Panel" parentDisplayName="Account" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Sales Performance Dashboard" solution="msdynce_Sales (9.0.4.0076)" id="{25b754f5-7563-df11-ae90-00155d2e3002}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Sales Activity Social Dashboard" solution="msdynce_Sales (9.0.4.0076)" id="{2701de60-8f2a-48a4-8262-4a35ca7441fa}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Sales Activity Dashboard" solution="msdynce_Sales (9.0.4.0076)" id="{45f88f83-0e67-443b-bd05-81d49719f6b1}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="PDS Product" parentDisplayName="Product" solution="msdyn_CSAdminCenterApp (1.133.250407.4)" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}">
+          <package appName="ServiceExtended" version="9.0.25033.2020">msdyn_ServiceExtendedAnchor (9.0.25033.2020)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Product" parentDisplayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account for Interactive experience" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account Quick Create" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account Quick Create" parentDisplayName="Account" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Sales Insights" parentDisplayName="Account" solution="SICommon (9.0.25034.10003)" id="{cb430327-bcc1-416d-959d-db7592e685af}">
+          <package appName="msdynce_SalesInsights" version="9.0.25034.10006">msdynce_SalesInsightsAnchor (9.0.25034.10006)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Order" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account Card form" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{cccff382-2b92-467e-bf1b-3db179512af8}">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account Card form" parentDisplayName="Account" id="{cccff382-2b92-467e-bf1b-3db179512af8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Sales Dashboard" solution="msdynce_Sales (9.0.4.0076)" id="{d1f511a8-1ead-e211-bb72-00155da9a201}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Order" parentDisplayName="Order" solution="msdynce_Sales (9.0.4.0076)" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Account form for Customer Card" parentDisplayName="Account" solution="msdyn_ModernCaseManagement (9.0.25033.2020)" id="{f5f9a07e-0f28-ed11-9db1-000d3a8d107a}">
+          <package appName="ServiceExtended" version="9.0.25033.2020">msdyn_ServiceExtendedAnchor (9.0.25033.2020)</package>
+        </Required>
+        <Dependent type="60" displayName="Account form for Customer Card" parentDisplayName="Account" id="{f5f9a07e-0f28-ed11-9db1-000d3a8d107a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Account/Account_main_system_library.js" displayName="AppCommon/Account/Account_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package appName="msdynce_AppCommon" version="9.0.25034.10001">msdynce_AppCommonAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Forecasting/Images/msdyn_ForecastDefinitionEntityIcon.svg" displayName="Forecasting/Images/msdyn_ForecastDefinitionEntityIcon.svg" solution="msdyn_Forecasting (9.0.24124.10002)">
+          <package appName="msdyn_SalesIntegrationsAndAddOns" version="9.0.25034.10001">msdyn_SalesIntegrationsAddOns (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Forecasting/Images/msdyn_ForecastInstanceEntityIcon.svg" displayName="Forecasting/Images/msdyn_ForecastInstanceEntityIcon.svg" solution="msdyn_Forecasting (9.0.24124.10002)">
+          <package appName="msdyn_SalesIntegrationsAndAddOns" version="9.0.25034.10001">msdyn_SalesIntegrationsAddOns (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Account/AssetCommon.Account.Library.js" displayName="msdyn_/Account/AssetCommon.Account.Library.js" solution="msdyn_AssetCommon (1.0.50.1)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/ACI/Scripts/ACILoader.js" displayName="msdyn_/ACI/Scripts/ACILoader.js" solution="RelationshipAnalytics (9.0.25034.10001)">
+          <package appName="msdynce_SalesInsights" version="9.0.25034.10006">msdynce_SalesInsightsAnchor (9.0.25034.10006)</package>
+          <package appName="Sales insights add-on" version="9.0.23101.10001">SalesInsightsAddOn (9.0.23101.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/ConnectedCustomerService/Account/AccountForm.js" displayName="msdyn_/ConnectedCustomerService/Account/AccountForm.js" solution="msdyn_ConnectedCustomerService (9.0.23122.1017)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account for Interactive experience" parentDisplayName="Account" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/Area_Default_Icon.png" displayName="msdyn_/Images/Area_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_Dynamics_icons_Sales" displayName="msdyn_Dynamics_icons_Sales" solution="msdyn_SalesApp (9.0.25034.10001)">
+          <package appName="msdynce_SalesInsights" version="9.0.25034.10006">msdynce_SalesInsightsAnchor (9.0.25034.10006)</package>
+          <package appName="SalesApp" version="9.0.23081.10004">msdyn_SalesAppDashboards (9.0.23081.10004)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_productdeterminationservice_ui" displayName="msdyn_productdeterminationservice_ui" solution="msdyn_CSAdminCenterApp (1.133.250407.4)">
+          <package appName="ServiceExtended" version="9.0.25033.2020">msdyn_ServiceExtendedAnchor (9.0.25033.2020)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_SalesOmniChannel/SalesPhoneNumber.Library.js" displayName="msdyn_SalesOmniChannel/SalesPhoneNumber.Library.js" solution="msdyn_SalesOmniChannel (9.1.25034.10001)">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_SalesOmniChannel/SalesPhoneNumber.Library.js" displayName="msdyn_SalesOmniChannel/SalesPhoneNumber.Library.js" solution="msdyn_SalesOmniChannel (9.1.25034.10001)">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ProductManagement/_static/entities/product.js" displayName="ProductManagement/_static/entities/product.js" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="ProductManagement/Product/Product_main_system_library.js" displayName="ProductManagement/Product/Product_main_system_library.js" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/goalmanagement/RollupQuery.svg" displayName="Sales/_imgs/goalmanagement/RollupQuery.svg" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/partnerapps/PartnerApps.svg" displayName="Sales/_imgs/partnerapps/PartnerApps.svg" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/productgrid/DiscountLists.svg" displayName="Sales/_imgs/productgrid/DiscountLists.svg" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/productgrid/GoalMetrics.svg" displayName="Sales/_imgs/productgrid/GoalMetrics.svg" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/productgrid/GoalSettings.svg" displayName="Sales/_imgs/productgrid/GoalSettings.svg" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/productgrid/PriceLists.svg" displayName="Sales/_imgs/productgrid/PriceLists.svg" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/productgrid/productCatalogSettings.svg" displayName="Sales/_imgs/productgrid/productCatalogSettings.svg" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/productgrid/SalesTerritories.svg" displayName="Sales/_imgs/productgrid/SalesTerritories.svg" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/productgrid/UnitGroups.svg" displayName="Sales/_imgs/productgrid/UnitGroups.svg" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/saleAdminSetting/GsAnalyticsIcon.svg" displayName="Sales/_imgs/saleAdminSetting/GsAnalyticsIcon.svg" solution="msdynce_SalesPatch202001 (9.0.25034.10001)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/saleAdminSetting/GsChatCollabIcon.svg" displayName="Sales/_imgs/saleAdminSetting/GsChatCollabIcon.svg" solution="msdynce_SalesPatch202001 (9.0.25034.10001)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/saleAdminSetting/GsLinkedInIcon.svg" displayName="Sales/_imgs/saleAdminSetting/GsLinkedInIcon.svg" solution="msdynce_SalesPatch202001 (9.0.25034.10001)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/saleAdminSetting/GsLnOIcon.svg" displayName="Sales/_imgs/saleAdminSetting/GsLnOIcon.svg" solution="msdynce_SalesPatch202001 (9.0.25034.10001)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/saleAdminSetting/GsOverviewIcon.svg" displayName="Sales/_imgs/saleAdminSetting/GsOverviewIcon.svg" solution="msdynce_SalesPatch202001 (9.0.25034.10001)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/saleAdminSetting/GsProductivityToolsIcon.svg" displayName="Sales/_imgs/saleAdminSetting/GsProductivityToolsIcon.svg" solution="msdynce_SalesPatch202001 (9.0.25034.10001)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/saleAdminSetting/GsTeamsCallsIcon.svg" displayName="Sales/_imgs/saleAdminSetting/GsTeamsCallsIcon.svg" solution="msdynce_SalesPatch202001 (9.0.25034.10001)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/saleAdminSetting/InsightIcon.svg" displayName="Sales/_imgs/saleAdminSetting/InsightIcon.svg" solution="msdynce_SalesPatch202001 (9.0.25034.10001)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/saleAdminSetting/SettingsIcon.svg" displayName="Sales/_imgs/saleAdminSetting/SettingsIcon.svg" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/SiteMap/OpportunityPipelineView.svg" displayName="Sales/_imgs/SiteMap/OpportunityPipelineView.svg" solution="msdyn_SalesApp (9.0.25034.10001)">
+          <package appName="msdynce_SalesInsights" version="9.0.25034.10006">msdynce_SalesInsightsAnchor (9.0.25034.10006)</package>
+          <package appName="SalesApp" version="9.0.23081.10004">msdyn_SalesAppDashboards (9.0.23081.10004)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/SiteMap/OrgChartIcon.svg" displayName="Sales/_imgs/SiteMap/OrgChartIcon.svg" solution="msdyn_SalesApp (9.0.25034.10001)">
+          <package appName="msdynce_SalesInsights" version="9.0.25034.10006">msdynce_SalesInsightsAnchor (9.0.25034.10006)</package>
+          <package appName="SalesApp" version="9.0.23081.10004">msdyn_SalesAppDashboards (9.0.23081.10004)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/SiteMap/SalesCopilotIconBlack.svg" displayName="Sales/_imgs/SiteMap/SalesCopilotIconBlack.svg" solution="msdyn_SalesApp (9.0.25034.10001)">
+          <package appName="msdynce_SalesInsights" version="9.0.25034.10006">msdynce_SalesInsightsAnchor (9.0.25034.10006)</package>
+          <package appName="SalesApp" version="9.0.23081.10004">msdyn_SalesAppDashboards (9.0.23081.10004)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_static/sfa/invoice/InvoiceRibbonActions.js" displayName="Sales/_static/sfa/invoice/InvoiceRibbonActions.js" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Order" id="{22a3f7f7-2709-4bb4-bbca-754475938d68}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_static/sfa/invoice/InvoiceRibbonActions.js" displayName="Sales/_static/sfa/invoice/InvoiceRibbonActions.js" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/SalesOrder/SalesOrder_main_system_library.js" displayName="Sales/SalesOrder/SalesOrder_main_system_library.js" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{cc287fab-10d3-44be-b738-1daf50a2aa03}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/SalesOrder/SalesOrder_main_system_library.js" displayName="Sales/SalesOrder/SalesOrder_main_system_library.js" solution="msdynce_Sales (9.0.4.0076)">
+          <package appName="msdynce_Sales" version="9.0.25034.10001">msdynce_SalesAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="62" schemaName="SalesHubSitemap" solution="msdyn_SalesApp (9.0.25034.10001)">
+          <package appName="msdynce_SalesInsights" version="9.0.25034.10006">msdynce_SalesInsightsAnchor (9.0.25034.10006)</package>
+          <package appName="SalesApp" version="9.0.23081.10004">msdyn_SalesAppDashboards (9.0.23081.10004)</package>
+        </Required>
+        <Dependent type="62" schemaName="SalesHubSitemap" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="Microsoft.AddressInputUCI" displayName="Microsoft.AddressInputUCI" solution="BaseCustomControlsCore (9.0.2503.4012)">
+          <package appName="Base Custom Controls" version="9.0.2503.4012">BaseCustomControlsCore (9.0.2503.4012)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.AcceleratedSales.CadenceWidgetControl" displayName="MscrmControls.AcceleratedSales.CadenceWidgetControl" solution="msdyn_acceleratedsales (9.1.25034.10001)">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2503.4012)">
+          <package appName="Base Custom Controls" version="9.0.2503.4012">BaseCustomControlsCore (9.0.2503.4012)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="BaseCustomControlsCore (9.0.2503.4012)">
+          <package appName="Base Custom Controls" version="9.0.2503.4012">BaseCustomControlsCore (9.0.2503.4012)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.CustomerCard" displayName="MscrmControls.FieldControls.CustomerCard" solution="msdynce_ServicePatch201911 (9.0.25033.4002)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account form for Customer Card" parentDisplayName="Account" id="{f5f9a07e-0f28-ed11-9db1-000d3a8d107a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.RecentRecords" displayName="MscrmControls.FieldControls.RecentRecords" solution="msdynce_ServicePatch201911 (9.0.25033.4002)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account form for Customer Card" parentDisplayName="Account" id="{f5f9a07e-0f28-ed11-9db1-000d3a8d107a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2503.4012)">
+          <package appName="Base Custom Controls" version="9.0.2503.4012">BaseCustomControlsCore (9.0.2503.4012)</package>
+        </Required>
+        <Dependent type="60" displayName="Order" parentDisplayName="Order" id="{d598792c-3ff0-43f3-b3e3-bbd70b99e1a5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.RAContainer.RAControl" displayName="MscrmControls.RAContainer.RAControl" solution="RelationshipAnalytics (9.0.25034.10001)">
+          <package appName="msdynce_SalesInsights" version="9.0.25034.10006">msdynce_SalesInsightsAnchor (9.0.25034.10006)</package>
+          <package appName="Sales insights add-on" version="9.0.23101.10001">SalesInsightsAddOn (9.0.23101.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.RAContainer.RAControlv2" displayName="MscrmControls.RAContainer.RAControlv2" solution="RelationshipAnalytics (9.0.25034.10001)">
+          <package appName="msdynce_SalesInsights" version="9.0.25034.10006">msdynce_SalesInsightsAnchor (9.0.25034.10006)</package>
+          <package appName="Sales insights add-on" version="9.0.23101.10001">SalesInsightsAddOn (9.0.23101.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.RetrieveProperties.RetrievePropertiesControl" displayName="MscrmControls.RetrieveProperties.RetrievePropertiesControl" solution="msdynce_ProductManagementPatch (9.0.25034.10001)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="PDS Product" parentDisplayName="Product" id="{7a91fa6b-6fff-ef11-bae2-000d3a319f57}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.RetrieveProperties.RetrievePropertiesControl" displayName="MscrmControls.RetrieveProperties.RetrievePropertiesControl" solution="msdynce_ProductManagementPatch (9.0.25034.10001)">
+          <package appName="msdynce_ProductManagement" version="9.0.25034.10001">msdynce_ProductManagementAnchor (9.0.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Product" parentDisplayName="Product" id="{a640be62-63f6-4027-90d7-48c014a7c6f3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msdyn_MscrmControls.TreeView.TreeViewControl" displayName="msdyn_MscrmControls.TreeView.TreeViewControl" solution="msdyn_AssetCommon (1.0.50.1)">
+          <package appName="msdynce_Service" version="9.0.25033.4002">msdynce_ServiceAnchor (9.0.25033.4002)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msdyn_SalesOmniChannel.SalesPhoneNumberControl" displayName="msdyn_SalesOmniChannel.SalesPhoneNumberControl" solution="msdyn_SalesOmniChannel (9.1.25034.10001)">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="msdyn_SalesOmniChannel.SalesPhoneNumberControl" displayName="msdyn_SalesOmniChannel.SalesPhoneNumberControl" solution="msdyn_SalesOmniChannel (9.1.25034.10001)">
+          <package appName="msdyn_AcceleratedSales" version="9.1.25034.10001">msdyn_AcceleratedSalesAnchor (9.1.25034.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Sales Insights" parentDisplayName="Account" id="{cb430327-bcc1-416d-959d-db7592e685af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" solution="msdyn_SalesApp (9.0.25034.10001)">
+          <package appName="msdynce_SalesInsights" version="9.0.25034.10006">msdynce_SalesInsightsAnchor (9.0.25034.10006)</package>
+          <package appName="SalesApp" version="9.0.23081.10004">msdyn_SalesAppDashboards (9.0.23081.10004)</package>
+        </Required>
+        <Dependent type="80" schemaName="msdynce_saleshub" displayName="Sales Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="appcopilotenabled" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025042.250409005)" id.uniquename="appcopilotenabled">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.2025042.250409005">PowerAppsAppCopilotApp_Anchor (9.2.2025042.250409005)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=msdynce_saleshub,settingdefinitionid.uniquename=appcopilotenabled" id.parentappmoduleid.uniquename="msdynce_saleshub" id.settingdefinitionid.uniquename="appcopilotenabled" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

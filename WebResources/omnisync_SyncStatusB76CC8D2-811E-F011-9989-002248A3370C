@@ -1,0 +1,16 @@
+function SyncStatus(executionContext) {
+    try {
+        var formContext = executionContext.getFormContext();
+    	var status = formContext.getAttribute("omnisync_syncstatus").getValue();
+
+	console.log("Status is:" + status);
+
+    	if (status === "Conflict") {
+        	formContext.ui.setFormNotification("There has been a Conflict Syncing. Review the fields or contact the Administrator!", "WARNING", "conflictNotification");
+    	} else {
+		formContext.ui.clearFormNotification("conflictNotification");
+    	}
+    } catch (error) {
+        console.error("Error in displayFormNotification: ", error.message);
+    }
+}
