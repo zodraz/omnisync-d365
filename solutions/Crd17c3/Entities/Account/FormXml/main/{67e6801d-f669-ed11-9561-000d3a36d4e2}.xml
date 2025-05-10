@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{67e6801d-f669-ed11-9561-000d3a36d4e2}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" headerdensity="HighReadOnlyValues" shownavigationbar="false" showinformselector="false">
+      <tabs>
+        <tab name="SUMMARY_TAB" id="{b45f6e70-2903-45e8-8f24-9341fd4a139e}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" labelid="{7b1fdc59-c379-402b-a718-f4499739650a}" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="Customer_Account_Cases" showlabel="false" showbar="false" id="{0eb92e6c-bcb8-0d52-a188-d81543ddb7cd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{3dc74aae-f519-4911-a205-1475f163935f}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{ce2645ba-6525-42c6-8f07-854ba304a242}" locklevel="0" rowspan="1" colspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Sync Status" languagecode="1033" />
+                        </labels>
+                        <control id="omnisync_syncstatus" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="omnisync_syncstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Customer profile cases" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Shows cases related to the customer (account)" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{face3aa6-99c4-4b7e-af07-55f121cdca86}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form showImage="true">
+      <tabs>
+        <tab name="Summary" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" labelid="{c32e0e16-4bdb-4aa0-a6e9-4a66cdbb025c}" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="Summary_keydetails" showlabel="true" showbar="true" id="{0eb92e6c-bcb8-0d52-a188-d81543ddb7cd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{83ed06f2-b54e-43aa-a1e8-154047cd0b64}" locklevel="0" celllabelalignment="Left" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{28bb6612-275d-4aa3-9997-8cb405dec350}" locklevel="0" rowspan="1" colspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Sync Status" languagecode="1033" />
+                        </labels>
+                        <control id="omnisync_syncstatus" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="omnisync_syncstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{8d7d3395-a4af-4d6f-bc49-fc546ce95053}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{275ac349-2294-4bbb-8b17-74982dc40c6c}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7c02bae3-2df5-4b25-ba71-d58f45bf1075}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c0f52fbc-78fd-42d4-a434-7c3e87c5edec}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="In Context Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Account form." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

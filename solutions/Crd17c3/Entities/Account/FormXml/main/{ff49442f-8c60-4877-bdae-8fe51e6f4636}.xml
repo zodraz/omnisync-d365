@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ff49442f-8c60-4877-bdae-8fe51e6f4636}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="SUMMARY_TAB" id="{3fbb0e51-c6a6-42a1-8113-3b19558132f2}" IsUserDefined="0" showlabel="false" expanded="true" locklevel="0" labelid="{2f560d24-d34e-4924-bea4-0a8b7a4795f1}" ordinalvalue="0">
+          <columns>
+            <column width="24%" id="0">
+              <sections>
+                <section name="ACCOUNT_INFORMATION" showlabel="true" showbar="false" id="{0ec2e053-634c-4955-8f61-bfc599ce53c1}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{f0d590d9-4b1e-4e00-bd19-22bdd88e2b4d}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{5cdad085-0845-4e4a-aee1-fdbbd744bf56}" locklevel="0" rowspan="1" colspan="1" ordinalvalue="10008" solutionaction="Added">
+                        <labels>
+                          <label description="Sync Status" languagecode="1033" />
+                        </labels>
+                        <control id="omnisync_syncstatus" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="omnisync_syncstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <footer id="{9a5c01ce-bee1-409a-bdcb-f8bd326c8c85}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{a53ef0f4-150c-4913-b12c-1bb3cb6d3834}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d3bc40ba-cabd-4c2a-9d6a-f2a5db033fe5}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7ca4366d-a66d-4c69-afd8-70b15c290cf6}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Account for Multisession experience" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Default Multisession experience Account form." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

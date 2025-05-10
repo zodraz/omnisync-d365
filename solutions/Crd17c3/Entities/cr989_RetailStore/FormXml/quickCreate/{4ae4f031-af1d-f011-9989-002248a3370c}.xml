@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4ae4f031-af1d-f011-9989-002248a3370c}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{1040afc1-c58c-4a31-af61-f0d2c10ccb8c}" showlabel="false" name="New Tab" labelid="{a5c2bc18-312d-40dd-a83b-b358c00416b4}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="true" columns="1" showbar="false" IsUserDefined="false" labelwidth="130" id="{48e3b72c-e3b0-4958-b044-605470db09ef}" name="tab_General" labelid="{d4258128-e135-4c53-9014-08e95e826eac}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c8aabc3f-0f99-4ef0-9e0e-c3ed93123435}" locklevel="0" colspan="1" rowspan="1" labelid="{8f2c5dc6-e163-4c7a-8ebe-f5694447b56d}">
+                        <labels>
+                          <label description="Code" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_storecode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr989_storecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee0797f8-e9e6-4816-b7f5-8f4b05ecb1f8}" labelid="{01436227-7ef4-41d9-b8f7-9f5df9cbc6e6}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_storename" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr989_storename" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{21d1e82d-f437-4c36-84db-8aa78c65501c}" labelid="{cd6e25de-b6d0-4594-b753-38b7efc04dc5}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_storedescription" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr989_storedescription" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e24bbf5e-e153-462a-8608-0224c6457f84}" labelid="{63dc72f9-e5d2-49e0-8629-7b4c500b885d}">
+                        <labels>
+                          <label description="Phone" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_storephone" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr989_storephone" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{963affb2-da21-4c19-bb95-26b0869b4a33}" labelid="{9cf6c984-bf3e-444a-a9d9-5b5f83bf9e27}">
+                        <labels>
+                          <label description="Store Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_storetype" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr989_storetype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{436638aa-2ee0-4a61-8641-18b22fb0a8b9}" locklevel="0" colspan="1" rowspan="1" labelid="{27c81492-f349-4a5f-a98c-82542bea988d}">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr989_account" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{dad45516-8f8c-4c1f-94f6-be629b369b11}" name="tab_Address" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{9e33c4ea-0fc7-42b9-88ff-78cb543e2500}">
+                  <labels>
+                    <label description="Address" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{cfd07f09-7bd3-4d73-abb2-4c82ee03fa33}" locklevel="0" colspan="1" rowspan="1" labelid="{67d62894-3390-469d-8a1d-6a64462529ac}">
+                        <labels>
+                          <label description="Address 1: Street" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_address1_street" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr989_address1_street" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e05c56dd-02ef-40dc-bc52-8d9031de9932}" locklevel="0" colspan="1" rowspan="1" labelid="{9cbe104e-6853-429b-b5b5-cab00b409a52}">
+                        <labels>
+                          <label description="Address 1: City" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_address1_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr989_address1_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{751a76a6-7c72-4156-b7d2-6b5efb136a4d}" locklevel="0" colspan="1" rowspan="1" labelid="{cc4acc36-5c0c-4ac8-9196-0b0626e64cab}">
+                        <labels>
+                          <label description="Address 1: ZIP/PostalCode" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_address1_postalcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr989_address1_postalcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5909a275-f6db-43cf-9854-6329eb3ef1d5}" locklevel="0" colspan="1" rowspan="1" labelid="{428932f1-fda4-430d-a4e7-2bc2d2c3e93c}">
+                        <labels>
+                          <label description="Address 1: State/Province" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_address1_stateorprovince" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr989_address1_stateorprovince" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{59af420c-764e-4278-bf21-7ca049024f23}" locklevel="0" colspan="1" rowspan="1" labelid="{e874ae7f-2a2c-4c18-924f-d4584fc6acaf}">
+                        <labels>
+                          <label description="Address 1: Country" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_address1_country" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr989_address1_country" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{b82dc5a5-936d-4757-af03-6395be999630}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{a49978d1-f62e-4784-9a80-56b5da50e3ca}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e8cec4e3-414b-4e3b-adab-b1b8c7ac3856}" labelid="{e1aa6985-c29d-4c18-b9ea-fa83e7f2331f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Retail Store Quick Create " languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Retail Store Quick Create " languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

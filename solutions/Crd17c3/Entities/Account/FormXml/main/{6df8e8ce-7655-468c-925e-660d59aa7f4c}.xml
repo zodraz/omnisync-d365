@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6df8e8ce-7655-468c-925e-660d59aa7f4c}</formid>
+    <IntroducedVersion>1.0.0.2</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true">
+      <tabs>
+        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" labelid="{e607cf2c-4b25-449d-ad4d-ce9b2a999323}" ordinalvalue="0">
+          <columns>
+            <column width="33%" id="0">
+              <sections>
+                <section name="SOCIAL_PANE_TAB" showlabel="false" showbar="false" id="{7a073b7c-5422-2418-3d26-b2a7eb290832}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Top" locklevel="0" celllabelalignment="Left" labelid="{e7481bbc-52a1-4cde-8695-ae6b37a6c90e}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{d3c6f278-8f1b-49f8-a2e6-7185cdf34494}" locklevel="0" rowspan="1" colspan="1" ordinalvalue="20001" solutionaction="Added">
+                        <labels>
+                          <label description="Sync Status" languagecode="1033" />
+                        </labels>
+                        <control id="omnisync_syncstatus" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="omnisync_syncstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d5a03552-1183-4347-a237-1f894ba449eb}" columns="111" celllabelposition="Top" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{54b2d0a2-eb77-b3cd-b60a-03ea6944e98e}" showlabel="true" locklevel="1" labelid="{ebc2d082-0068-4eae-8fdd-8eedd57659af}" ordinalvalue="10000">
+              <labels>
+                <label description="Owner" languagecode="1033" solutionaction="Modified" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar />
+      </Navigation>
+      <controlDescriptions />
+      <footer id="{d1eb42cf-6629-4a66-ba64-240abdd06e6b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{aa701fe2-7ddd-4858-bcea-0c94900b76f9}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f29ee012-98b6-4729-885e-e2af48dd7579}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ccf41e23-c94e-4702-a5b5-f38ec9e45bb3}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="TimelineWallControl - Account- Main" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Form to display timeline for account" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

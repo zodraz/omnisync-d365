@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{22a3f7f7-2709-4bb4-bbca-754475938d68}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab name="general" verticallayout="true" id="{ff24c1f9-a3fa-4124-bf35-e3800ce54cd8}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="order information" showlabel="false" showbar="false" id="{08c3b890-a628-498c-9731-6b9b73f3dc03}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{1d10ed69-0390-47f2-ac0f-d1d7cce36c41}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Order ID" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                      <cell id="{b8f89f06-8127-4be3-bc36-513641c3e4d3}" ordinalvalue="20001" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{b861ffe4-9497-47f5-89e2-d602c8e8b9df}" rowspan="1" ordinalvalue="10002" solutionaction="Modified">
+                        <labels>
+                          <label description="Name" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{031a3c83-b275-4ec8-94d3-92323b5ff8d1}" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Modified">
+                        <labels>
+                          <label description="Customer" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                      <cell id="{5d885fe5-0a22-4211-90fd-750fc3c26b5c}" colspan="1" rowspan="1" ordinalvalue="20004" solutionaction="Modified">
+                        <labels>
+                          <label description="Currency" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a8ea21b-49e4-4b56-be4e-3f5afcf73200}" colspan="1" rowspan="1" ordinalvalue="10005" solutionaction="Modified">
+                        <labels>
+                          <label description="Price List" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                      <cell id="{ccbefe96-5ce7-400f-aceb-db82d612f8df}" ordinalvalue="20006" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{a68af565-3862-4172-ac27-b67624b00b37}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="20001" solutionaction="Added">
+                        <labels>
+                          <label description="RetailStore" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_retailstore" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr989_retailstore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{d8da8300-5ecb-4141-8036-5aacdcb9b0c4}" ordinalvalue="20006" solutionaction="Added">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="totals" showlabel="true" showbar="true" id="{1b174532-99ec-40a3-9bb9-fa99733788b4}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{9f1014c4-05d5-43d1-973d-50f13a5d9f53}" ordinalvalue="20001">
+                        <labels>
+                          <label description="Prices Locked" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13e21af0-86af-4180-a3e1-452759c79f72}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Order Discount (%)" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{673fc4cb-3a14-4eb0-bf18-dc2153e4040f}" ordinalvalue="10008">
+                        <labels>
+                          <label description="Freight Amount" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58a11ed9-00cc-428a-b9eb-0f511b738b3b}" ordinalvalue="10010">
+                        <labels>
+                          <label description="Total Tax" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0067d2ad-4814-4cf8-b692-e415595008ae}" ordinalvalue="10012">
+                        <labels>
+                          <label description="Total Amount" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="shipping" id="{06929816-221a-451f-bb93-921bc504bfee}" IsUserDefined="0" ordinalvalue="1">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="dates" showlabel="true" showbar="true" id="{0c92df16-ded3-4407-b893-0f636fa4214b}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{9771d9ae-c86f-4472-a2f6-e62ca402b423}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Requested Delivery Date" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{a3a169e9-ad36-4e66-bcce-ef6ef995321c}" ordinalvalue="20001">
+                        <labels>
+                          <label description="Date Fulfilled" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="shipping information" showlabel="true" showbar="true" id="{1e39e164-ed35-4188-8f8b-47bef4ebd95f}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{11eee78d-cadc-498e-82e7-8bab8c7e4c2c}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Shipping Method" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f8031990-1dcb-49bc-b0d1-4720c72c62eb}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Payment Terms" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9283a539-51c7-4bdd-8f4b-97ac8c3d47a3}" ordinalvalue="10004">
+                        <labels>
+                          <label description="Freight Terms" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="description" showlabel="true" showbar="true" id="{d9e36e67-1f48-4b1e-b95e-deef27671191}" IsUserDefined="0" height="auto" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{f94ed6ce-fd77-4639-ab96-a260775698b9}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Description" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="addresses" id="{57e7323c-c9dd-427f-8bd3-71edb7d4a1fe}" IsUserDefined="0" ordinalvalue="2">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="ship to address" showlabel="true" showbar="true" id="{96403fbf-4b54-4291-95b9-e83a8fc587b6}" IsUserDefined="0" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell colspan="2" id="{732bbd4e-a3eb-4f03-8e5c-3e3a977138b5}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Ship To" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="administration" id="{21777c2f-cf35-46d5-87b2-1a1522a665ed}" IsUserDefined="0" ordinalvalue="3">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="internal information" showlabel="false" showbar="false" id="{e8156e97-fb18-4223-a2ce-e2632bbc78a2}" IsUserDefined="0" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{53730167-1814-46c3-8f49-d516e3d23fba}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                      <cell id="{1ccf77a0-4fa5-4c51-a372-2131e73f97e7}" ordinalvalue="20001">
+                        <labels>
+                          <label description="Opportunity" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{870f749d-30f6-4024-8c6c-f4dafed1d5c8}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                      <cell id="{33c14a59-ec6d-45a6-935a-7ccc6479ea8e}" ordinalvalue="20003">
+                        <labels>
+                          <label description="Quote" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{9afdc79c-4304-449f-8ab5-5f39bfffc201}" ordinalvalue="10004">
+                        <labels>
+                          <label description="Source Campaign" languagecode="1033" solutionaction="Modified" />
+                        </labels>
+                      </cell>
+                      <cell id="{a8c746eb-0e8b-4910-993d-85ed66650014}" ordinalvalue="20005" solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{7798876d-e8c3-4118-a685-055a76740bc3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{fe17d164-a61a-4b19-8860-53e9d8e8628d}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6ceb0b10-6c7e-4540-92d2-af8143d48042}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b3148683-6fad-4c47-9a93-17ab6882caf7}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{905d4af8-42d4-4d29-8b02-3d6a417d6c41}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{d186c08a-fcdc-4041-89b6-0e8aec382a45}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5dced195-e473-4630-bf38-f9ca2ec59b97}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a0ccd335-eb0a-4c72-be9f-c431976b53b3}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

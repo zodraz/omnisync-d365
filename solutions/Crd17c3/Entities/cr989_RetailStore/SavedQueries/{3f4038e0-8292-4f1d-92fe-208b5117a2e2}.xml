@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{3f4038e0-8292-4f1d-92fe-208b5117a2e2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr989_storecode" select="1" icon="1" preview="1">
+        <row name="result" id="cr989_retailstoreid">
+          <cell name="cr989_storecode" width="113" />
+          <cell name="cr989_storename" width="205" />
+          <cell name="cr989_storetype" width="100" />
+          <cell name="cr989_account" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr989_retailstore">
+          <attribute name="cr989_retailstoreid" />
+          <attribute name="cr989_storecode" />
+          <attribute name="createdon" />
+          <order attribute="cr989_storecode" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="cr989_storename" />
+          <attribute name="cr989_storetype" />
+          <attribute name="cr989_account" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Retail Stores" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

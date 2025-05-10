@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>SalesHubSitemap</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area IntroducedVersion="7.0.0.0" Icon="/WebResources/msdyn_/Images/Area_Default_Icon.png" Id="Enterprise_Sales" ResourceId="Area_Sales" DescriptionResourceId="Sales_Description" ShowGroups="true" ordinalvalue="0">
+      <Group Id="Collateral" ResourceId="Area_Collateral" DescriptionResourceId="Area_Collateral_Description" IsProfile="false" ToolTipResourseId="Area_Collateral_Sales_ToolTip" ordinalvalue="3">
+        <SubArea Id="subarea_43ec8438" VectorIcon="/WebResources/cr989_retailstore" Icon="/WebResources/cr989_retailstore" Entity="cr989_retailstore" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" ordinalvalue="5" solutionaction="Added" />
+        <SubArea Id="Case" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="incident" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="false" PassParams="false" Sku="All,OnPremise,Live,SPLA" ordinalvalue="6" solutionaction="Added">
+          <Titles>
+            <Title LCID="1033" Title="Cases" ordinalvalue="0" />
+            <Title LCID="1025" Title="الحالات" ordinalvalue="1" />
+            <Title LCID="1026" Title="Случаи" ordinalvalue="2" />
+            <Title LCID="1027" Title="Casos" ordinalvalue="3" />
+            <Title LCID="1029" Title="Případy" ordinalvalue="4" />
+            <Title LCID="1030" Title="Sager" ordinalvalue="5" />
+            <Title LCID="1031" Title="Anfragen" ordinalvalue="6" />
+            <Title LCID="1032" Title="Υποθέσεις" ordinalvalue="7" />
+            <Title LCID="3082" Title="Casos" ordinalvalue="8" />
+            <Title LCID="1061" Title="Teenindusjuhtumid" ordinalvalue="9" />
+            <Title LCID="1069" Title="Kasuak" ordinalvalue="10" />
+            <Title LCID="1035" Title="Palvelupyynnöt" ordinalvalue="11" />
+            <Title LCID="1036" Title="Incidents" ordinalvalue="12" />
+            <Title LCID="1110" Title="Casos" ordinalvalue="13" />
+            <Title LCID="1037" Title="אירועים" ordinalvalue="14" />
+            <Title LCID="1081" Title="मामले" ordinalvalue="15" />
+            <Title LCID="1050" Title="Slučajevi" ordinalvalue="16" />
+            <Title LCID="1038" Title="Esetek" ordinalvalue="17" />
+            <Title LCID="1057" Title="Kasus" ordinalvalue="18" />
+            <Title LCID="1040" Title="Casi" ordinalvalue="19" />
+            <Title LCID="1041" Title="サポート案件" ordinalvalue="20" />
+            <Title LCID="1087" Title="Істер" ordinalvalue="21" />
+            <Title LCID="1042" Title="서비스 케이스" ordinalvalue="22" />
+            <Title LCID="1063" Title="Atvejai" ordinalvalue="23" />
+            <Title LCID="1062" Title="Pieteikumi" ordinalvalue="24" />
+            <Title LCID="1086" Title="Kes" ordinalvalue="25" />
+            <Title LCID="1044" Title="Saker" ordinalvalue="26" />
+            <Title LCID="1043" Title="Aanvragen" ordinalvalue="27" />
+            <Title LCID="1045" Title="Sprawy" ordinalvalue="28" />
+            <Title LCID="1046" Title="Ocorrências" ordinalvalue="29" />
+            <Title LCID="2070" Title="Incidentes" ordinalvalue="30" />
+            <Title LCID="1048" Title="Cazuri" ordinalvalue="31" />
+            <Title LCID="1049" Title="Обращения" ordinalvalue="32" />
+            <Title LCID="1051" Title="Prípady" ordinalvalue="33" />
+            <Title LCID="1060" Title="Primeri" ordinalvalue="34" />
+            <Title LCID="3098" Title="Предмети" ordinalvalue="35" />
+            <Title LCID="2074" Title="Predmeti" ordinalvalue="36" />
+            <Title LCID="1053" Title="Ärenden" ordinalvalue="37" />
+            <Title LCID="1054" Title="กรณีและปัญหา" ordinalvalue="38" />
+            <Title LCID="1055" Title="Servis Talepleri" ordinalvalue="39" />
+            <Title LCID="1058" Title="Інциденти" ordinalvalue="40" />
+            <Title LCID="1066" Title="Các trường hợp" ordinalvalue="41" />
+            <Title LCID="2052" Title="服务案例" ordinalvalue="42" />
+            <Title LCID="3076" Title="案例" ordinalvalue="43" />
+            <Title LCID="1028" Title="案例" ordinalvalue="44" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="Marketing" ResourceId="Area_Marketing" DescriptionResourceId="Marketing_Description" IntroducedVersion="9.0.0.0" IsProfile="false" ToolTipResourseId="Marketing_ToolTip" ordinalvalue="4" solutionaction="Modified">
+        <SubArea Id="nav_lists" DescriptionResourceId="MarketingList_SubArea_Description" IntroducedVersion="9.0.0.0" Entity="list" AvailableOffline="true" PassParams="false" ToolTipResourseId="MarketingList_SubArea_ToolTip" ordinalvalue="0" solutionaction="Modified" />
+        <SubArea Id="nav_campaigns" DescriptionResourceId="Campaign_Description" IntroducedVersion="9.0.0.0" Entity="campaign" AvailableOffline="true" PassParams="false" ToolTipResourseId="Campaign_ToolTip" ordinalvalue="1" solutionaction="Modified" />
+        <SubArea Id="nav_minicamps" DescriptionResourceId="Quick_Campaign_Description" IntroducedVersion="9.0.0.0" Entity="bulkoperation" AvailableOffline="true" PassParams="false" ToolTipResourseId="Quick_Campaign_ToolTip" ordinalvalue="2" solutionaction="Modified" />
+      </Group>
+      <Group Id="Service" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="6">
+        <SubArea Icon="/_imgs/imagestrips/transparent_spacer.gif" Id="Case" AvailableOffline="false" PassParams="false" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" Sku="All,OnPremise,Live,SPLA" Entity="incident" ordinalvalue="0" solutionaction="Removed" />
+      </Group>
+    </Area>
+    <Area Id="Sales_Settings_Area" Icon="$webresource:Sales/_imgs/saleAdminSetting/SettingsIcon.svg" VectorIcon="$webresource:Sales/_imgs/saleAdminSetting/SettingsIcon.svg" ResourceId="Area_Sales_Settings" IntroducedVersion="9.0.0" ordinalvalue="1">
+      <Group Id="GeneralSettingsGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="1" solutionaction="Modified" />
+      <Group Id="PlaybookManagementGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="3" solutionaction="Modified" />
+      <Group Id="SalesSettingsGrp" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="4" solutionaction="Modified" />
+      <Group Id="ProductCatalogGrp" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="5" solutionaction="Modified" />
+      <Group Id="GoalManagementGrp" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="6" solutionaction="Modified" />
+      <Group Id="AppExtensionsGrp" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="7" solutionaction="Modified" />
+    </Area>
+    <Area Id="Sales_Insights_Settings_Area" Icon="$webresource:Sales/_imgs/saleAdminSetting/SettingsIcon.svg" VectorIcon="$webresource:Sales/_imgs/saleAdminSetting/SettingsIcon.svg" ResourceId="Area_Sales_Insights_Settings" IntroducedVersion="9.0.0" ordinalvalue="2">
+      <Group Id="SalesInsightsGrp" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="0" solutionaction="Modified" />
+    </Area>
+    <Area Id="Sales_Personal_Settings_Area" Icon="$webresource:Sales/_imgs/saleAdminSetting/SettingsIcon.svg" VectorIcon="$webresource:Sales/_imgs/saleAdminSetting/SettingsIcon.svg" ResourceId="Area_Sales_Personal_Settings" IntroducedVersion="9.0.0" ordinalvalue="3">
+      <Group Id="SalesPersonalSettingsGrp" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown" ordinalvalue="0" solutionaction="Modified" />
+    </Area>
+    <Area Id="HLP" ResourceId="Sales_Area_Help" ShowGroups="true" Icon="/_imgs/icn_help16.png" DescriptionResourceId="Sales_Help_Area_Description" IntroducedVersion="7.0.0.0" ordinalvalue="4">
+      <Group Id="HLP_GRP" ResourceId="Sales_Group_Help" DescriptionResourceId="Sales_Help_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Help_ToolTip" ordinalvalue="0" solutionaction="Modified">
+        <SubArea Id="Help_Resource_Center" ResourceId="Sales_Area_CustomerCenter" DescriptionResourceId="ResourceCenter_Area_Description" Url="https://go.microsoft.com/fwlink/p/?linkid=853224" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" ToolTipResourseId="ResourceCenter_Area_ToolTip" ordinalvalue="0" solutionaction="Modified" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Sales Hub" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>
