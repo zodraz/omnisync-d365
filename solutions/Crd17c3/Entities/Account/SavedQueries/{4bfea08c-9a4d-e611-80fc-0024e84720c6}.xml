@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{4bfea08c-9a4d-e611-80fc-0024e84720c6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="name" select="1" preview="1" icon="1">
+        <row name="result" id="accountid">
+          <cell name="name" width="150" />
+          <cell name="primarycontactid" width="150" />
+          <cell name="msdyn_accountkpiitem.msdyn_relationshiphealthscorestate" width="260" disableSorting="1" imageproviderfunctionname="loadkpihealthscore" imageproviderwebresource="$webresource:msdyn_/HealthWidget/Scripts/HealthWidget.minified.js" />
+          <cell name="msdyn_accountkpiitem.msdyn_relationshiphealthtrend" width="160" disableSorting="1" imageproviderfunctionname="loadrelationshiphealthtrend" imageproviderwebresource="$webresource:msdyn_/HealthWidget/Scripts/HealthWidget.minified.js" />
+          <cell name="msdyn_accountkpiitem.msdyn_timespentbyteam_calculated" width="136" disableSorting="1" />
+          <cell name="msdyn_accountkpiitem.msdyn_timespentbycustomer_calculated" width="180" disableSorting="1" />
+          <cell name="msdyn_accountkpiitem.msdyn_acilastupdatetimestamp" width="175" disableSorting="1" />
+          <cell name="omnisync_syncstatus" width="106" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="account">
+          <attribute name="name" />
+          <attribute name="primarycontactid" />
+          <order attribute="name" descending="false" />
+          <filter type="and">
+            <condition attribute="ownerid" operator="eq-userid" />
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <link-entity alias="msdyn_accountkpiitem" name="msdyn_accountkpiitem" from="msdyn_accountkpiitemid" to="msdyn_accountkpiid" link-type="outer" visible="false">
+            <attribute name="msdyn_relationshiphealthscorestate" />
+            <attribute name="msdyn_relationshiphealthtrend" />
+            <attribute name="msdyn_timespentbyteam_calculated" />
+            <attribute name="msdyn_timespentbycustomer_calculated" />
+            <attribute name="msdyn_acilastupdatetimestamp" />
+          </link-entity>
+          <attribute name="accountid" />
+          <attribute name="omnisync_syncstatus" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Active Accounts by Relationship" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

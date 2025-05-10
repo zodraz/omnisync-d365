@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{944bd820-76a0-ed11-aad1-6045bd00698c}</formid>
+    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" headerdensity="HighWithControls" showinformselector="false">
+      <tabs>
+        <tab name="tab_2" id="982912d5-ee2b-4126-8d55-7d375abf19ab" IsUserDefined="0" locklevel="0" showlabel="true" labelid="{1809a147-77a0-46e0-8695-a379c1471415}" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_2_section_1" id="0240c53c-2e93-4414-8160-6f63e183f20a" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" labelid="{cb86e07e-b7ec-4389-a041-6cf116c5778e}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{64a4440b-1da8-4ecb-8851-0aa4690852c5}" locklevel="0" rowspan="1" colspan="1" ordinalvalue="10001" solutionaction="Added">
+                        <labels>
+                          <label description="Sync Status" languagecode="1033" />
+                        </labels>
+                        <control id="omnisync_syncstatus" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="omnisync_syncstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Account form for Conversation Customer Card" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Account form for Conversation Customer Card." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

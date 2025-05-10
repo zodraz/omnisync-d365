@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9722ebd2-913b-419b-b55b-c67023924bc8}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{33eb091f-1115-45ca-a185-8ed0dd6e7421}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{31a97afc-896d-4b4c-a62c-422e0746345c}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{38ebaf34-8a1b-456a-9463-2ddc88e55973}">
+                        <labels>
+                          <label description="Code" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_storecode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr989_storecode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5b3e6ea3-f1a6-4849-9bd3-cae79a3dd770}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_storename" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="cr989_storename" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12b46e50-fd18-4efb-8236-062ef953bbcb}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Store Type" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_storetype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="cr989_storetype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{429d04b0-39a7-49d8-916e-956e80186de4}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{172c4d2c-f533-4387-8466-e3bf23740c96}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="cr989_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr989_account" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
